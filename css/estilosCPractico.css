@@ -1,0 +1,34 @@
+h1{
+    font-family:serif;
+    text-align: center;
+    color: rgb(64, 179, 255);
+    max-width: 800px;
+    margin: 15px auto;
+}
+form{
+    width: 350px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 70px auto;
+    background-color: #ccc;
+    align-items: center;
+}
+.enlace-foto{
+    height: 90px; width: 350px;
+    background-color: white;
+    /*margin: 20px 250px auto;
+    align-items: center;*/
+}
+
+.fondo{
+    background-color: white;
+    margin: 10px;
+    align-items: center;
+    height: 500px;
+    width: 800px;
+}
+.body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/059/451/non_2x/green-medical-background-with-floating-virus-free-vector.jpg");
+    image-rendering: optimizeQuality;
+    align-content: center;
+}
