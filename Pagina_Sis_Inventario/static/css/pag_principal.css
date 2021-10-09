@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Playfair+Display:wght@500&display=swap');
+
+body {
+  background-image: url("../img/fondo_smart.jpg");
+  image-rendering: optimizeQuality;
+  background-repeat: no-repeat;
+  font-family: 'Akronim', cursive;
+  font-family: 'Playfair Display', serif;
+}
+
+.zte{
+  padding-top: 120px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.plt__inve{
+  font-size: 17px;
+  padding-bottom: 40px;
+  padding-top: 0px;
+}
+.fondo{
+  background-color: #184e52;
+  width: 350px; height: 240px;
+  margin: 16px auto;
+  align-content: center;
+}
+
+.btn_login{
+  
+ size: 80px;
+}
+
+.zte input[type="submit"] {
+  background: #02040f;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  width: 150px; height: 30px; 
+}
+
+.zte input[type="submit"]:hover {
+  background: rgb(1, 5, 46);
+}
+
+/* Buttons' focus effect */
+.zte input[type="submit"]:focus {
+  border-color: rgba(219, 10, 10, 0.856);
+}

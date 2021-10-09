@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background: #0e3539;
+  font-family: 'Open Sans', sans-serif;
+}
+.zte{
+  padding-top: 100px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.login {
+  width: 92%; height: 180px;
+  margin: 16px auto;
+  font-size: 15px;
+  padding-top: 4.5px;
+}
+.fondo{
+  background-color: #184e52;
+  width: 350px; height: 240px;
+  margin: 16px auto;
+  align-content: center;
+}
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+
+.login-forget {
+  font-size: 9px;
+  margin: 0%;
+  padding-left: 15px;
+ /* font-weight: normal;*/
+  text-align: left;
+  text-transform:capitalize;
+  text-decoration: dashed;
+  color: #a9b7b8;
+}
+
+.login-header {
+  padding: 1px;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.login-container {
+  background: #8d9fa1;
+  padding: 12px;
+  border-radius: 20px;
+  box-shadow:8px 10px 8px #104145;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+  
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 250px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 4px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  border-radius: 8px;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #d1d6d6;
+  border-color: #bbb;
+  color: #555;
+}
+.login input[type = 'password']{
+  padding-top: 5px;
+}
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #4eb488;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  width: 40%;
+}
+
+.login input[type="submit"]:hover {
+  background: rgb(29, 126, 86);
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: rgb(35, 155, 105);
+}
